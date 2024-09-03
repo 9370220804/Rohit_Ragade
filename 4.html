@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        /* Header */
+        header {
+            background-color: #fff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        header nav a.button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 5px;
+        }
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(45deg, #007BFF, #6a11cb);
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .hero .button {
+            background-color: #fff;
+            color: #007BFF;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .hero .button:hover {
+            background-color: #f4f4f4;
+        }
+        /* Classes Section */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            background-color: #fff;
+            width: 30%;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            background-color: #ccc;
+        }
+        .card h3 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .card p {
+            font-size: 1em;
+            color: #555;
+            padding: 0 15px;
+        }
+        .card button {
+            margin: 20px 0;
+            padding: 10px 20px;
+            border: none;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .card button:hover {
+            background-color: #0056b3;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        /* Footer */
+        footer {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+            position: relative;
+        }
+        footer p {
+            margin: 0;
+        }
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Title</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <a href="#" class="button">Button</a>
+        </nav>
+    </header>
+
+    
+    <section class="hero">
+        <h1>Title</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas risus mi, egestas et imperdiet quis, tristique non mi.</p>
+        <a href="#" class="button">Read More</a>
+    </section>
+
+
+    <div class="container">
+        <h2>Classes</h2>
+        <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas risus mi, egestas et imperdiet quis, tristique non mi.</p>
+        <div class="cards">
+            <div class="card">
+                <img src="#" alt="ADD IMAGE">
+                <h3>Basic Technical Writing</h3>
+                <p>This course focuses on understanding the basics of technical writing and developing technical writing skills...</p>
+                <button>View</button>
+            </div>
+            <div class="card">
+                <img src="#" alt="ADD IMAGE">
+                <h3>Confluence Advanced</h3>
+                <p>This course focuses to ensure your documentation-type content is easy to manage and consume. This skill builder...</p>
+                <button>View</button>
+            </div>
+            <div class="card">
+                <img src="#" alt="ADD IMAGE">
+                <h3>Confluence Basic</h3>
+                <p>This course guide end users to create their own easy to use and well-formatted content. This Skillbuilder covers...</p>
+                <button>View</button>
+            </div>
+            <div class="card">
+                <img src="#" alt="ADD IMAGE">
+                <h3>XML Author</h3>
+                <p>This course focuses on deepening the knowledge in XML Author, in any industry. In this course, you'll learn about writing...</p>
+                <button>View</button>
+            </div>
+            <div class="card">
+                <img src="#" alt="ADD IMAGE">
+                <h3>Advanced Technical Writing - API</h3>
+                <p>This course focuses on deepening the knowledge of technical content deliverable, containing instructions about...</p>
+                <button>View</button>
+            </div>
+            <div class="card">
+                <img src="#" alt="ADD IMAGE">
+                <h3>Basic DITA-XML</h3>
+                <p>This course focuses on individuals keen to broaden their knowledge or specialize in basic DITA- XML, in any industry...</p>
+                <button>View</button>
+            </div>
+            <div class="card">
+                <img src="#" alt="ADD IMAGE">
+                <h3>Advanced DITA-XML</h3>
+                <p>This course focuses on individuals keen to broaden their knowledge or specialize in advanced DITA- XML, in any industry...</p>
+                <button>View</button>
+            </div>
+            <div class="card">
+                <img src="#" alt="ADD IMAGE">
+                <h3>xMetal Author</h3>
+                <p>Learn xMetal for XML-based authoring to manage high volume structured content development and management...</p>
+                <button>View</button>
+            </div>
+            <div class="card">
+                <img src="#" alt="ADD IMAGE">
+                <h3>MadCap Flare</h3>
+                <p>This course focuses on developing technical writing skills to deepen the knowledge of MadCap Flare for writing...</p>
+                <button>View</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright © 2024. All Rights Reserved.</p>
+        <a href="#">Back to top</a>
+    </footer>
+</body>
+</html>
